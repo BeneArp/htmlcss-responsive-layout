@@ -20,7 +20,7 @@
     /* sezione caratteristiche */
     #caratteristiche .container{
         display: flex;
-        width: 50%;
+        width: 60%;
     }
 
     #caratteristiche .container div{
@@ -38,5 +38,12 @@
     /* sezione benefici */
     #benefits .card{
         width: calc(100% / 3 - 40px)
+    }
+
+
+
+    /* sezione start */
+    #start .container{
+        width: 40%;
     }
 }

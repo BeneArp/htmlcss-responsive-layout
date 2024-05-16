@@ -45,4 +45,11 @@
     #us .col-30{
         width: calc(40% - 40px);
     }
+
+
+
+    /* sezione start */
+    #start .container{
+        width: 70%;
+    }
 }
