@@ -55,6 +55,9 @@ header nav{
     height: 60px;
 }
 
+
+/* MAIN */
+/* sezione funzioni */
 .col-33{
     background-color: rgb(181 221 255);
     margin-bottom: 30px;
@@ -65,11 +68,30 @@ header nav{
 }
 
 
-/* MAIN */
+/* sezione caratteristiche */
+#caratteristiche{
+    background-color: rgb(151 146 228);
+    margin: 80px 0;
+    padding: 40px 0;
+}
 
+#caratteristiche .container div{
+    /* debug */
+    height: 200px;
+    border: 2px solid black;
+}
+
+#caratteristiche .container .card{
+    background-color: white;
+    border-radius: 40px;
+    margin: 60px 20px 0 20px;
+}
 
 /* TABLET */
 @media screen and (min-width:768px) {
+
+    /* main */
+    /* sezione funzioni */
     #funzioni .container{
         display: flex;
         flex-wrap: wrap;
@@ -88,9 +110,9 @@ header nav{
 
 
 /* DESKTOP*/
-
-/* header */
 @media screen and (min-width:1025px) {
+
+    /* header */
     .container{
         width: 70%;
     }
@@ -101,5 +123,25 @@ header nav{
 
     header nav{
         display: block;
+    }
+
+
+
+    /* main */
+    /* sezione caratteristiche */
+    #caratteristiche .container{
+        display: flex;
+        width: 50%;
+    }
+
+    #caratteristiche .container div{
+        width: 50%;
+    }
+
+    #caratteristiche .container .card{
+        /* debgu */
+        height: 150px;
+        align-self: flex-end;
+        margin-right: 0;
     }
 }
