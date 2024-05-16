@@ -29,4 +29,20 @@
     #benefits .card{
         width: calc(50% - 40px)
     }
+
+
+
+    /* sezione about us */
+    #us .container{
+        display: flex;
+        gap: 40px;
+    }
+
+    #us .col-60{
+        width: 60%;
+    }
+
+    #us .col-30{
+        width: calc(40% - 40px);
+    }
 }

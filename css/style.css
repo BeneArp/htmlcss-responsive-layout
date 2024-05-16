@@ -121,3 +121,16 @@ header nav{
     /* debug */
     height: 200px;
 }
+
+/* sezione about us */
+#us .col-60{
+    /* debug */
+    height: 500px;
+    border: 2px solid darkgreen;
+}
+
+#us .col-30{
+    /* debug */
+    height: 300px;
+    background-color: cadetblue;
+}
