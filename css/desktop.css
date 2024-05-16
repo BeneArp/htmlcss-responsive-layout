@@ -46,4 +46,11 @@
     #start .container{
         width: 40%;
     }
+
+
+
+     /* footer */
+     footer .container{
+        width: 40%;
+    }
 }
