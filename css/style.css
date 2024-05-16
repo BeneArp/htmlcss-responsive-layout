@@ -15,6 +15,7 @@ body{
 header{
     background-color: hsl(208.7deg 100% 49.61%);
     height: 80px;
+    margin-bottom: 60px;
 }
 
 .container{
@@ -54,14 +55,41 @@ header nav{
     height: 60px;
 }
 
+.col-33{
+    background-color: rgb(181 221 255);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    /* debug */
+    height: 200px;
+    border: 2px solid blue;
+}
+
+
+/* MAIN */
+
+
 /* TABLET */
 @media screen and (min-width:768px) {
-    
+    #funzioni .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col-33{
+        width: calc(100% / 3 - 20px );
+    }
+
+    #big-col{
+        width: calc(((100% / 3)*2) - 11px );
+    }
 }
 
 
 
 /* DESKTOP*/
+
+/* header */
 @media screen and (min-width:1025px) {
     .container{
         width: 70%;
