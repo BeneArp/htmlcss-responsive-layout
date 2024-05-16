@@ -24,6 +24,10 @@ ul{
     border-radius: 40px;
 }
 
+div img{
+    max-width: 100%;
+}
+
 
 /* HEADER */
 header{
@@ -67,15 +71,36 @@ header nav{
 /* sezione funzioni */
 #funzioni{
     padding-top: 120px;
+    color: rgb(90 110 127);
+}
+
+#funzioni h3, #funzioni .col-33 i{
+    color: rgb(0 132 253);
+    margin: 20px 0;
+}
+
+#funzioni .col-33 i{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+#funzioni p{
+    margin-bottom: 20px;
 }
 
 .col-33{
     background-color: rgb(181 221 255);
     margin-bottom: 30px;
     border-radius: 20px;
+    text-align: center;
+    padding: 0 20px;
     /* debug */
-    height: 200px;
+
     border: 2px solid blue;
+}
+
+#big-col{
+    text-align: left;
 }
 
 
