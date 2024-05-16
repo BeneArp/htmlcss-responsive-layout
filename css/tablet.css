@@ -16,4 +16,17 @@
     #big-col{
         width: calc(((100% / 3)*2) - 11px );
     }
+
+
+
+    /* sezione benefici */
+    #benefits .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #benefits .card{
+        width: calc(50% - 40px)
+    }
 }

@@ -99,3 +99,25 @@ header nav{
 #testimonials .container .card{
     background-color: rgb(151 146 228);
 }
+
+/* sezione benefici */
+#benefits{
+    background-color: rgb(151 146 228);
+    padding: 80px 0;
+    margin: 80px 0;
+}
+
+#titolo-sezione{
+    width: 90%;
+    margin: 0 auto;
+    /* debug */
+    border: 2px solid violet;
+    height: 200px;
+}
+
+
+#benefits .container .card{
+    border-radius: 20px;
+    /* debug */
+    height: 200px;
+}

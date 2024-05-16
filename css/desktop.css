@@ -33,4 +33,10 @@
         align-self: flex-end;
         margin-right: 0;
     }
+
+
+    /* sezione benefici */
+    #benefits .card{
+        width: calc(100% / 3 - 40px)
+    }
 }
