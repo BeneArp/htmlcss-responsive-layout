@@ -9,6 +9,20 @@ body{
     font-family: "PT Sans", sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.button{
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
 
 
 /* HEADER */
@@ -16,6 +30,14 @@ header{
     background-color: hsl(208.7deg 100% 49.61%);
     height: 80px;
     margin-bottom: 60px;
+    color: white;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+nav a{
+    color: white;
 }
 
 .container{
@@ -23,22 +45,11 @@ header{
     height: 100%;
     margin: 0 auto;
     /* debug */
-    background-color: aquamarine;
-}
-
-#logo{
-    /* debug */
-    background-color: white;
-    width: 80px;
-    height: 60px;
-    border: 2px solid black;
+    /* background-color: aquamarine; */
 }
 
 #hamburger{
-    /* debug */
-    background-color: white;
-    width: 80px;
-    height: 60px;
+    font-size: 30px;
 }
 
 header .container{
@@ -49,15 +60,15 @@ header .container{
 
 header nav{
     display: none;
-    /* debug */
-    background-color: blue;
-    width: 200px;
-    height: 60px;
 }
 
 
 /* MAIN */
 /* sezione funzioni */
+#funzioni{
+    padding-top: 120px;
+}
+
 .col-33{
     background-color: rgb(181 221 255);
     margin-bottom: 30px;
