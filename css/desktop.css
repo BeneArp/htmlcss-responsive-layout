@@ -1,0 +1,36 @@
+/* DESKTOP*/
+@media screen and (min-width:1025px) {
+
+    /* header */
+    .container{
+        width: 70%;
+    }
+
+    #hamburger{
+        display: none;
+    }
+
+    header nav{
+        display: block;
+    }
+
+
+
+    /* main */
+    /* sezione caratteristiche */
+    #caratteristiche .container{
+        display: flex;
+        width: 50%;
+    }
+
+    #caratteristiche .container div{
+        width: 50%;
+    }
+
+    #caratteristiche .container .card{
+        /* debgu */
+        height: 200px;
+        align-self: flex-end;
+        margin-right: 0;
+    }
+}
