@@ -107,6 +107,7 @@ header nav{
 #big-col{
     text-align: left;
     padding-bottom: 0;
+    overflow: hidden;
 }
 
 #demo{
@@ -128,6 +129,7 @@ header nav{
     margin: 0 auto;
     display: block;
     width: 80%;
+    height: 90%;
 }
 
 
@@ -238,13 +240,16 @@ header nav{
 
 
 /* sezione about us */
+#us h2, .fa-quote-left{
+    color: rgb(151 146 228);
+}
+
 #us .col-60{
     margin-bottom: 40px;
 }
 
 #us .col-30{
     position: relative;
-    color: rgb(151 146 228);
 }
 
 #us .col-30 .profile-pic{
