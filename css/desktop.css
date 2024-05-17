@@ -52,13 +52,7 @@
         width: 60%;
     }
 
-    #caratteristiche .container div{
-        width: 50%;
-    }
-
     #caratteristiche .container .card{
-        /* debgu */
-        height: 200px;
         align-self: flex-end;
         margin-right: 0;
     }
