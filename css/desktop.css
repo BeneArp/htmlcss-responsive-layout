@@ -46,6 +46,15 @@
 
 
 
+ /* sezione testimonials */
+ .bio{
+    margin: 60px 0;
+}
+
+
+
+
+
     /* sezione caratteristiche */
     #caratteristiche .container{
         display: flex;
