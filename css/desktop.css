@@ -23,77 +23,78 @@
 
     /* main */
     /* sezione funzioni */
- .big-col{
-    display: flex;
- }
-
- #demo{
-    width: 50%;
-    margin-bottom: 0;
- }
-
- #pic{
-    align-self: flex-end;
-    width: 50%;
-    max-height: 90%;
- }
- 
- #pic img{
-    margin-left: 40px;
- }
-
-
-
-
-
- /* sezione testimonials */
- .bio{
-    margin: 50px 0;
-}
-
-
-
-
-
-/* sezione caratteristiche */
-#caratteristiche .container{
-    display: flex;
-    width: 60%;
-}
-
-#caratteristiche .container .card{
-    align-self: flex-end;
-    margin-right: 0;
-}
-
-
-
-
-
-/* sezione benefici */
-#benefits .card{
-    width: calc(100% / 3 - 40px)
-}
-
-
-
-
-/* sesione us */
-#us h2{
-    width: 250px;
-}
-
-
-
-/* sezione start */
-#start .container{
-    width: 40%;
-}
-
-
-
-/* footer */
-footer .container{
-    width: 40%;
+    .big-col{
+        display: flex;
     }
-}
+
+    #demo{
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    #pic{
+        align-self: flex-end;
+        width: 50%;
+        max-height: 90%;
+    }
+    
+    #pic img{
+        margin-left: 40px;
+    }
+
+
+
+
+
+    /* sezione testimonials */
+    .bio{
+        margin: 50px 0;
+    }
+
+
+
+
+
+    /* sezione caratteristiche */
+    #caratteristiche .container{
+        display: flex;
+        gap: 60px;
+        width: 60%;
+    }
+
+    #caratteristiche .container .card{
+        align-self: flex-end;
+        margin-right: 0;
+    }
+
+
+
+
+
+    /* sezione benefici */
+    #benefits .card{
+        width: calc(100% / 3 - 40px)
+    }
+
+
+
+
+    /* sesione us */
+    #us h2{
+        width: 250px;
+    }
+
+
+
+    /* sezione start */
+    #start .container{
+        width: 40%;
+    }
+
+
+
+    /* footer */
+    footer .container{
+        width: 40%;
+        }
+    }
