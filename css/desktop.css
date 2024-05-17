@@ -22,6 +22,30 @@
 
 
     /* main */
+    /* sezione funzioni */
+ #big-col{
+    display: flex;
+ }
+
+ #demo{
+    width: 50%;
+    margin-bottom: 0;
+ }
+
+ #pic{
+    align-self: flex-end;
+    width: 50%;
+    max-height: 90%;
+ }
+ 
+ #pic img{
+    margin-left: 40px;
+ }
+
+
+
+
+
     /* sezione caratteristiche */
     #caratteristiche .container{
         display: flex;

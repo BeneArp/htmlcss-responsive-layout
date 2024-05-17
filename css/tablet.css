@@ -17,6 +17,11 @@
         width: calc(((100% / 3)*2) - 11px );
     }
 
+    #pic img{
+        width: 70%;
+        margin: 0;
+    }
+
 
 
     /* sezione benefici */
