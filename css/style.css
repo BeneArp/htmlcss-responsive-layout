@@ -133,6 +133,7 @@ header nav{
 #demo .button{
     background-color: rgb(0 132 253);
     color: white;
+    padding: 10px 50px;
 }
 
 .big-col #demo .fa-apple{
@@ -297,6 +298,10 @@ header nav{
     z-index: 200;
 }
 
+#us .button{
+    padding: 8px 20px;
+}
+
 .button i{
     margin-right: 8px;
 }
@@ -313,7 +318,7 @@ header nav{
     display: inline-block;
     color: rgb(151 146 228);
     font-weight: bold;
-    padding: 10px 30px;
+    padding: 10px 40px;
     margin: 10px 0 30px;
 }
 
