@@ -36,6 +36,11 @@ p{
     margin: 20px 0;
 }
 
+/* allineamento centrato */
+.col-33, .card, #testimonials, #start, footer{
+    text-align: center;
+}
+
 /* HEADER */
 header{
     background-color: hsl(208.7deg 100% 49.61%);
@@ -100,11 +105,10 @@ header nav{
     background-color: rgb(181 221 255);
     margin-bottom: 30px;
     border-radius: 20px;
-    text-align: center;
     padding: 10px 20px;
 }
 
-#big-col{
+.big-col{
     text-align: left;
     padding-bottom: 0;
     overflow: hidden;
@@ -119,7 +123,7 @@ header nav{
     color: white;
 }
 
-#big-col #demo .fa-apple{
+.big-col #demo .fa-apple{
     color: white;
     font-size: 16px;
     margin-right: 8px;
@@ -150,7 +154,6 @@ header nav{
     border-radius: 40px;
     margin: 60px 20px 0 20px;
     padding: 40px 20px;
-    text-align: center;
     color: black;
 }
 
@@ -163,10 +166,6 @@ header nav{
 
 
 /* sezione testimonials */
-#testimonials{
-    text-align: center;
-}
-
 #testimonials h2{
     color: rgb(151 146 228);
 }
@@ -274,13 +273,17 @@ header nav{
     margin-top: 80px;
     background-color: rgb(151 146 228);
     padding: 50px 0;
+    color: white;
 }
 
-#start div{
-    /* debug */
-    height: 400px;
-    background-color: palevioletred;
+#start .button{
+    display: inline-block;
+    color: rgb(151 146 228);
+    font-weight: bold;
+    padding: 10px 25px;
+    margin: 10px 0;
 }
+
 
 
 

@@ -23,7 +23,7 @@
 
     /* main */
     /* sezione funzioni */
- #big-col{
+ .big-col{
     display: flex;
  }
 
