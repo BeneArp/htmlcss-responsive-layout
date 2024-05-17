@@ -113,7 +113,7 @@ header nav{
     margin-bottom: 20px;
 }
 
-#demo-button{
+#demo .button{
     background-color: rgb(0 132 253);
     color: white;
 }
@@ -228,9 +228,12 @@ header nav{
 }
 
 #benefits .button{
+    padding: 5px 30px;
+}
+
+.bg-violet{
     background-color: rgb(151 146 228);
     color: white;
-    padding: 5px 30px;
 }
 
 
@@ -254,6 +257,10 @@ header nav{
     top: 0;
     left: 150px;
     z-index: 200;
+}
+
+.button i{
+    margin-right: 8px;
 }
 
 
