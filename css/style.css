@@ -32,6 +32,8 @@ div img{
 
 h2{
     margin: 30px 0;
+    font-size: 40px;
+    line-height: 1.2em;
 }
 
 p{
@@ -169,6 +171,9 @@ header nav{
     font-size: 25px;
 }
 
+#caratteristiche h2{
+    margin-top: 100px;
+}
 
 /* sezione testimonials */
 #testimonials h2{
@@ -246,6 +251,11 @@ header nav{
 /* sezione about us */
 #us h2, .fa-quote-left{
     color: rgb(151 146 228);
+}
+
+#us h2{
+    font-size: 50px;
+    margin-bottom: 40px;
 }
 
 #us .col-60{
