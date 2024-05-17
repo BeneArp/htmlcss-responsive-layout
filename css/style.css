@@ -174,7 +174,7 @@ header nav{
     color: white;
 }
 
-.card .profile-pic{
+.profile-pic{
     margin: 0 auto;
     width: 200px;
     height: 200px;
@@ -182,7 +182,7 @@ header nav{
     overflow: hidden;
 }
 
-.card .profile-pic img{
+.profile-pic img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -236,15 +236,24 @@ header nav{
 
 /* sezione about us */
 #us .col-60{
-    /* debug */
-    height: 500px;
-    border: 2px solid darkgreen;
+    margin-bottom: 40px;
 }
 
 #us .col-30{
-    /* debug */
-    height: 300px;
-    background-color: cadetblue;
+    position: relative;
+    color: rgb(151 146 228);
+}
+
+#us .col-30 .profile-pic{
+    margin: 0;
+}
+
+#us .fa-quote-left{
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    z-index: 200;
 }
 
 

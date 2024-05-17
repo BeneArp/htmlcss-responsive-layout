@@ -26,7 +26,7 @@
 
 
     /* sezione testimonials */
-    #testimonials .card .profile-pic{
+    #testimonials .profile-pic{
         float: left;
         margin-right: 20px;
     }
@@ -66,6 +66,7 @@
 
     #us .col-60{
         width: 60%;
+        margin-bottom: 0;
     }
 
     #us .col-30{
