@@ -203,6 +203,18 @@ header nav{
     object-fit: cover;
 }
 
+.bio i{
+    padding: 0;
+}
+
+.fa-quote-left{
+    margin-right: 4px;
+    color: white;
+}
+
+.fa-quote-right{
+    margin-left: 4px;
+}
 
 /* sezione benefici */
 #benefits{
@@ -253,7 +265,7 @@ header nav{
 
 
 /* sezione about us */
-#us h2, .fa-quote-left{
+#us h2, #us .fa-quote-left{
     color: rgb(151 146 228);
 }
 
