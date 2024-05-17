@@ -37,10 +37,6 @@
         clear: both;
     }
 
-    .bio{
-        margin: 50px 0;
-    }
-
 
 
 
@@ -61,7 +57,7 @@
     /* sezione about us */
     #us .container{
         display: flex;
-        gap: 40px;
+        gap: 80px;
     }
 
     #us .col-60{
