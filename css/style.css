@@ -36,6 +36,10 @@ h2{
     line-height: 1.2em;
 }
 
+h3{
+    font-size: 25px;
+}
+
 p{
     margin: 20px 0;
 }
@@ -222,7 +226,7 @@ header nav{
 
 #benefits span{
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     font-size: 50px;
 }
 
