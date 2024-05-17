@@ -142,6 +142,10 @@ header nav{
     margin-right: 8px;
 }
 
+#pic{
+    margin-top: 40px;
+}
+
 #pic img{
     margin: 0 auto;
     display: block;
